@@ -29,7 +29,7 @@ export const Menu = ({ menu }) => {
                     activeClassName="active-link"
                     onClick={_handleActiveSection}
                     to={{ pathname: "/", hash: section }}
-                    isActive={(m, l) => (l.hash === section ? true : false)}
+                    isActive={(m, l) => (l.hash === section)}
                   >
                     <i className={`bx ${className} nav__icon`} /> {label}
                   </NavLink>

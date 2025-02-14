@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet";
 
-export const SEO = ({ name, ocupation, description }) => {
+export const SEO = ({ name, occupation, description }) => {
   return (
     <Helmet>
-      <title>{name} - {ocupation}</title>
+      <title>{name} - {occupation}</title>
       <meta name="description" content={description} />
     </Helmet>
   );
